@@ -1,4 +1,4 @@
-package org.paasta.container.platform.common.api.clusters;
+package org.container.platform.common.api.clusters;
 
 import org.junit.Before;
 import org.junit.Test;

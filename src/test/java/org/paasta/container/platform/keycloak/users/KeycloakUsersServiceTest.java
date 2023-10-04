@@ -1,4 +1,4 @@
-package org.paasta.container.platform.keycloak.users;
+package org.container.platform.keycloak.users;
 
 import org.junit.Before;
 import org.junit.Test;

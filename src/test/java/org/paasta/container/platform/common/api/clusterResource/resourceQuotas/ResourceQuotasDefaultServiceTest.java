@@ -1,16 +1,16 @@
-package org.paasta.container.platform.common.api.clusterResource.resourceQuotas;
+package org.container.platform.common.api.clusterResource.resourceQuotas;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.paasta.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefault;
-import org.paasta.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefaultList;
-import org.paasta.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefaultRepository;
-import org.paasta.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefaultService;
-import org.paasta.container.platform.common.api.common.CommonService;
-import org.paasta.container.platform.common.api.common.Constants;
+import org.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefault;
+import org.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefaultList;
+import org.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefaultRepository;
+import org.container.platform.common.api.clusterResource.ResourceQuotas.ResourceQuotasDefaultService;
+import org.container.platform.common.api.common.CommonService;
+import org.container.platform.common.api.common.Constants;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 

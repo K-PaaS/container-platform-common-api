@@ -1,12 +1,12 @@
-package org.paasta.container.platform.common.api.clusterResource.limitRanges;
+package org.container.platform.common.api.clusterResource.limitRanges;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.paasta.container.platform.common.api.common.CommonService;
-import org.paasta.container.platform.common.api.common.Constants;
+import org.container.platform.common.api.common.CommonService;
+import org.container.platform.common.api.common.Constants;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 

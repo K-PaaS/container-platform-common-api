@@ -1,4 +1,4 @@
-package org.paasta.container.platform.broker.serviceInstance;
+package org.container.platform.broker.serviceInstance;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 
-import org.paasta.container.platform.common.api.common.Constants;
+import org.container.platform.common.api.common.Constants;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 

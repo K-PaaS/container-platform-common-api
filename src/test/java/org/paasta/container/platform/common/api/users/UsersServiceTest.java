@@ -1,4 +1,4 @@
-package org.paasta.container.platform.common.api.users;
+package org.container.platform.common.api.users;
 
 
 import org.junit.Before;
@@ -6,14 +6,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.paasta.container.platform.common.api.clusters.Clusters;
-import org.paasta.container.platform.common.api.clusters.ClustersService;
-import org.paasta.container.platform.common.api.common.CommonService;
-import org.paasta.container.platform.common.api.common.Constants;
-import org.paasta.container.platform.common.api.common.PropertyService;
-import org.paasta.container.platform.common.api.common.ResultStatus;
-import org.paasta.container.platform.keycloak.users.KeycloakUsers;
-import org.paasta.container.platform.keycloak.users.KeycloakUsersService;
+import org.container.platform.common.api.clusters.Clusters;
+import org.container.platform.common.api.clusters.ClustersService;
+import org.container.platform.common.api.common.CommonService;
+import org.container.platform.common.api.common.Constants;
+import org.container.platform.common.api.common.PropertyService;
+import org.container.platform.common.api.common.ResultStatus;
+import org.container.platform.keycloak.users.KeycloakUsers;
+import org.container.platform.keycloak.users.KeycloakUsersService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;

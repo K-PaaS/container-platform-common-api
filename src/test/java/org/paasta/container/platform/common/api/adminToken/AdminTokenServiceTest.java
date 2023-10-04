@@ -1,12 +1,12 @@
-package org.paasta.container.platform.common.api.adminToken;
+package org.container.platform.common.api.adminToken;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.*;
-import org.paasta.container.platform.common.api.common.CommonService;
-import org.paasta.container.platform.common.api.common.Constants;
-import org.paasta.container.platform.common.api.exception.CommonErrCode;
+import org.container.platform.common.api.common.CommonService;
+import org.container.platform.common.api.common.Constants;
+import org.container.platform.common.api.exception.CommonErrCode;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 

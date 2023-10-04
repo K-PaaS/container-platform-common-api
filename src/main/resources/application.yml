@@ -1,6 +1,6 @@
 spring:
   application:
-    name: paas-ta-container-platform-common-api
+    name: container-platform-common-api
   security:
     username: SECURITY_USERNAME
     password: SECURITY_PASSWORD
